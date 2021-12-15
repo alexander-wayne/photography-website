@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pics by Hailey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar_container">
+            <a href="/index.html" class="navbar_title">Pics by Hailey <i class="fas fa-camera-retro"></i></a>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/" class="navbar_link">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="navbar_link">Gallery</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="navbar_link">About</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="#contact" class="button">Book Now</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="intro">
+        <div class="intro_container">
+            <div class="intro_content" data-aos="fade-right" data-aos-delay="300">
+                <h1>Capture the Moments</h1>
+                <h2>You'll Cherish</h2>
+                <button class="intro_btn">
+                    <a href="/about.html">
+                        About Me
+                    </a>
+                </button>
+            </div>
+            <div class="intro_img_container" data-aos="fade-left" data-aos-delay="300">
+                <img src="./images/hailey.jpg" alt="me" id="intro_img">
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <h1 data-aos="fade-down" data-aos-delay="300">Some of my Work</h1>
+        <div class="gallery_imgs">
+            <div class="gallery_img_container" data-aos="fade-right" data-aos-delay="300">
+                <img src="./images/girl_leaves.jpg" alt="" class="gallery_img">
+            </div>
+            <div class="gallery_img_container" data-aos="fade-up" data-aos-delay="300">
+                <img src="./images/girl_flowers.jpg" alt="" class="gallery_img">
+            </div>
+            <div class="gallery_img_container" data-aos="fade-left" data-aos-delay="300">
+                <img src="./images/girl_hat.jpg" alt="" class="gallery_img">
+            </div>
+            
+        </div>
+        <button id="gallery_btn" data-aos="zoom-in" data-aos-delay="600">
+            <a href="/gallery.html">
+                See More
+            </a>
+        </button>
+    </div>
+    <section class="contact" id="contact">
+        <div class="contact_container">
+            <h1>Book Now</h1>
+            <form action="" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="subject">Message</label>
+                <textarea name="subject" id="subject" cols="10" rows="10" placeholder="Enter your message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
